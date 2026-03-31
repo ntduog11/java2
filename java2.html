@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="java2e.css">
+</head>
+<body onload="addTabFocus()">
+
+    <h2>Interactive Photo Gallery</h2>
+
+    <div id="image">
+        Hover or focus on an image below to display here.
+    </div>
+
+    <img src="red.avif" alt="Red Image"
+        onmouseover="upDate(this)" 
+        onmouseleave="undo()"
+        onfocus="upDate(this)"
+        onblur="undo()">
+
+    <img src="green.png" alt="Green Image"
+        onmouseover="upDate(this)" 
+        onmouseleave="undo()"
+        onfocus="upDate(this)"
+        onblur="undo()">
+
+    <img src="blue.jpg" alt="Blue Image"
+        onmouseover="upDate(this)" 
+        onmouseleave="undo()"
+        onfocus="upDate(this)"
+        onblur="undo()">
+
+    <img src="yellow.jpg" alt="Yellow Image"
+        onmouseover="upDate(this)" 
+        onmouseleave="undo()"
+        onfocus="upDate(this)"
+        onblur="undo()">
+
+    <img src="pink.avif" alt="Pink Image"
+        onmouseover="upDate(this)" 
+        onmouseleave="undo()"
+        onfocus="upDate(this)"
+        onblur="undo()">
+
+    <img src="cyan.png" alt="Cyan Image"
+        onmouseover="upDate(this)" 
+        onmouseleave="undo()"
+        onfocus="upDate(this)"
+        onblur="undo()">
+
+    <script src="script.js"></script>
+
+</body>
+</html>
